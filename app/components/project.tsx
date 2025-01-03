@@ -30,13 +30,13 @@ export default function Project() {
           </div>
 
           {/* Project 3 - Hackathon Next.js */}
-          <div className="bg-gray-800 p-6 rounded-lg">
+          {/* <div className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-xl font-semibold mb-4">Hackathon Next.js</h2>
             <p className="text-sm mb-4">This is a project I worked on during a Hackathon using Next.js for rapid development.</p>
             <Link href="https://figma-hackthone-gce3.vercel.app/" target="_blank">
               <div className="text-orange-500 hover:underline">View Project</div>
             </Link>
-          </div>
+          </div> */}
 
           {/* Project 4 - HTML Portfolio */}
           <div className="bg-gray-800 p-6 rounded-lg">
