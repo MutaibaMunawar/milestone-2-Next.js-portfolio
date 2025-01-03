@@ -24,7 +24,7 @@ export default function Project() {
           <div className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-xl font-semibold mb-4">Interior Design</h2>
             <p className="text-sm mb-4">This is an assignment I completed using Next.js.</p>
-            <Link href="https://2nd-assignment-next-js-smoky.vercel.app/" target="_blank">
+            <Link href="https://3rd-assignment-next-js-psi.vercel.app/" target="_blank">
               <div className="text-orange-500 hover:underline">View Project</div>
             </Link>
           </div>
