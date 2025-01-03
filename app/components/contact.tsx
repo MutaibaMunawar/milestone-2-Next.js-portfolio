@@ -56,7 +56,7 @@ export default function Contact() {
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               className="p-3 bg-gray-800 text-white border border-gray-600 rounded-md"
-              rows="4"
+              rows = {4}
               required
             />
           </div>
