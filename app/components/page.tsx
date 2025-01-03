@@ -22,7 +22,7 @@ const Page = () => {
           </p>
           <div className="flex gap-6 mt-6">
             <a
-              href="https://www.linkedin.com/in/your-profilehttps://www.linkedin.com/in/mutaiba-munawar-hussain"
+              href="https://www.linkedin.com/in/mutaiba-munawar-hussain-29750630b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
               className="px-6 py-3 text-lg font-semibold text-white bg-orange-500 rounded-lg shadow-md hover:bg-[#e3874f] transition duration-300"
             >
               LinkedIn

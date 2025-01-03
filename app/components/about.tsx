@@ -43,9 +43,9 @@ export default function About() {
         <Image
           src="/about.jpeg"
           alt="Your Image"
-          width={350}   // Adjust the width for mobile view
-          height={350}  // Adjust the height for proper aspect ratio
-          className="mx-auto lg:ml-16 lg:pt-[60px] rounded-lg" // Added rounded corners and center the image
+          width={350}   
+          height={350}  
+          className="mx-auto lg:ml-16 lg:pt-[60px] rounded-lg" 
         />
       </div>
     </div>

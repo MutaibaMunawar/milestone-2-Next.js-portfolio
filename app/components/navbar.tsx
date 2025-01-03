@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-stone-700 p-4">
+    <nav className="bg-stone-700 p-4 fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center">
         <div className="text-white font-bold text-2xl pl-[50px]">Mutaiba Munawar</div>
 
@@ -43,8 +43,11 @@ export default function Navbar() {
           <Link href="#about" className="text-white hover:text-[#e3874f]">
             About
           </Link>
-          <Link href="/project" className="text-white hover:text-[#e3874f]">
+          <Link href="#portfolio" className="text-white hover:text-[#e3874f]">
             Project
+          </Link>
+          <Link href="#skill" className="text-white hover:text-[#e3874f]">
+            Skill
           </Link>
           <Link href="#contact" className="text-white hover:text-[#e3874f]">
             Contact
@@ -56,8 +59,9 @@ export default function Navbar() {
       <div className={`${isOpen ? 'block' : 'hidden'} lg:hidden mt-4`}>
         <a href="#" className="block text-white py-2 hover:text-[#e3874f]">Home</a>
         <a href="#about" className="block text-white py-2 hover:text-[#e3874f]">About</a>
-        <a href="#" className="block text-white py-2 hover:text-[#e3874f]">Services</a>
-        <a href="#" className="block text-white py-2 hover:text-[#e3874f]">Contact</a>
+        <a href="#portfolio" className="block text-white py-2 hover:text-[#e3874f]">Project</a>
+        <a href="#skill" className="block text-white py-2 hover:text-[#e3874f]">Skill</a>
+        <a href="#contact" className="block text-white py-2 hover:text-[#e3874f]">Contact</a>
       </div>
     </nav>
   );

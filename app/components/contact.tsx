@@ -15,9 +15,9 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="bg-black text-white py-12 px-4 lg:px-16">
+    <div id="contact" className="bg-black text-white py-12 px-4 lg:px-16 pt-[100px]">
       <div className="max-w-2xl mx-auto text-center">
-        <h1 className="text-3xl font-bold mb-6">Contact Me</h1>
+        <h1 className="text-3xl font-bold mb-6 hover:text-orange-400">Contact Me</h1>
         <p className="text-lg mb-8">Feel free to reach out to me. I am happy to help</p>
 
         {/* Contact Form */}
