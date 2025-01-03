@@ -18,7 +18,7 @@ export default function Contact() {
     <div id="contact" className="bg-black text-white py-12 px-4 lg:px-16">
       <div className="max-w-2xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-6">Contact Me</h1>
-        <p className="text-lg mb-8">Feel free to reach out to me. I am happy to help!</p>
+        <p className="text-lg mb-8">Feel free to reach out to me. I am happy to help</p>
 
         {/* Contact Form */}
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -71,7 +71,7 @@ export default function Contact() {
 
         {/* Contact Info */}
         <div className="mt-8">
-          <p className="text-lg">Or contact me directly:</p>
+          <p className="text-lg">Or contact me directly</p>
           <div className="flex justify-center space-x-4 mt-4">
             <a href="mailto:mutaibamunawar@gmail.com" className="text-orange-500 hover:underline">Email</a>
             <span className="text-white">|</span>
