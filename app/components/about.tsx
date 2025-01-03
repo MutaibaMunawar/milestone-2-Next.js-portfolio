@@ -4,20 +4,9 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div id="about" className="flex h-screen bg-black">
-      {/* Image Section */}
-      <div className="relative w-1/2">
-        <Image
-          src="/about.jpeg"
-          alt="Your Image"
-          width={450}
-          height={300}
-          className="pl-[120px] pt-[60px]"
-        />
-      </div>
-
-      {/* About Section */}
-      <div className="flex flex-col justify-center items-center text-white w-1/2 px-6">
+    <div id="about" className="flex flex-col lg:flex-row h-screen bg-black">
+      {/* Left (Text) Section */}
+      <div className="flex flex-col justify-center items-center text-white w-full lg:w-1/2 px-6 py-8">
         <h1 className="text-4xl font-bold mb-6 text-center transition-all hover:text-orange-400">
           About Me
         </h1>
@@ -26,7 +15,7 @@ export default function About() {
           pursuing a Software Engineering diploma from Aptech Institute&apos;
           alongside learning Web Development through GIAIC. I come from a
           Commerce background and completed my second year in this field&apos;
-          which sparked my interest in technology and development
+          which sparked my interest in technology and development.
         </p>
 
         {/* Contact Info */}
@@ -46,6 +35,17 @@ export default function About() {
             </Link>
           </div>
         </div>
+      </div>
+
+      {/* Right (Image) Section */}
+      <div className="relative w-full lg:w-1/2">
+        <Image
+          src="/about.jpeg"
+          alt="Your Image"
+          width={350}
+          height={200}
+          className=" mx-auto lg:ml-16 lg:pt-[60px]"
+        />
       </div>
     </div>
   );
